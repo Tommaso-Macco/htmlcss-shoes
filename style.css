@@ -1,0 +1,50 @@
+/* GENERAL SETTINGS */
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.centershoe {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 78%;
+    text-align: center;
+    font-size: 30px;
+    color: yellow;
+    transform: translate(-50%, -50%);
+}
+
+/* PRIMA SECTION */
+#first {
+    background-color: red;
+}
+
+
+/* SECONDA SECTION */
+#second {
+    background-color: green;
+}
+
+/* TERZA SECTION */
+#third {
+    background-color: yellow;
+}
+
+#greentext {
+    color: green;
+}
